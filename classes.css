@@ -7,7 +7,7 @@
     background: url(https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/FJPT5455KR5K1589912863345.jpg) no-repeat center center fixed;
     background-size: cover;
     filter: blur(5px);
-    z-index: -1; /* Gör att bakgrunden ligger bakom allt annat */
+    z-index: -1; 
 }
 
 hr {
