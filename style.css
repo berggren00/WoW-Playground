@@ -1,0 +1,72 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://wowvendor.com/app/uploads/2023/09/thumb-62.jpg) no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1; /* Gör att bakgrunden ligger bakom allt annat */
+}
+
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.container img {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(178, 234, 225);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+    width: 50%;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+}
+
+.classesButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.prevClasses {
+    background-color: #212882;
+  color: gold; 
+  border: 2px solid gold; 
+  border-radius: 10px; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  font-family: 'warcraft', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.prevClasses:hover {
+    background-color: gold;
+    color: #212882;
+    box-shadow: 5px 5px 5px #212882;
+}
+
+
+
+
